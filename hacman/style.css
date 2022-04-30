@@ -1,0 +1,53 @@
+body{
+    background-image: url(images/background.png);
+    
+}
+
+.title{
+    background-image: url(images/title.png);
+    padding-top: 200px;
+    position: absolute;
+    text-align: center;
+    padding-left: 324px;
+    margin-top: -120px;
+    margin-left: 450px;
+
+}
+h1 {
+    color:blue;
+}
+
+.tile {
+    background-color: black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: -2px;
+}
+
+.wall {
+    background-image: url(images/brick.png);
+}
+
+.dot {
+    background-image: url(images/dot.png);
+}
+
+.bg {
+    background-image: url(images/empty.png);
+}
+
+.hacman {
+    background-image: url(images/hacman.gif);
+}
+.enemy{
+    background-image: url(images/ghost.png);
+}
+.ch{
+    background-image: url(images/ch.png);
+}
+
+#grid{
+    text-align: center;
+    padding-top: 80px;
+}
